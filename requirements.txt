@@ -1,0 +1,22 @@
+# Data collection
+requests
+beautifulsoup4
+pdfplumber
+pysbd
+pandas
+
+# RAG
+sentence-transformers
+faiss-cpu
+
+# Fine-tuning and evaluation
+transformers
+datasets
+torch
+scikit-learn
+
+# Demo
+gradio
+
+# Utilities
+python-dotenv
