@@ -37,6 +37,12 @@ app.py         Gradio app for the Hugging Face Space
 
 ```bash
 pip install -r requirements.txt
+
+# 1. Download and clean the Fed and ECB documents (about 15 minutes, one request per second)
+python scripts/collect.py
+#    -> data/documents.jsonl, data/sentences.csv, data/test_docs.txt
+
+# 2. Run the demo
 python app.py
 ```
 
